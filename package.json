@@ -1,15 +1,18 @@
 {
   "name": "myapp",
+  "productName": "マイアプリ",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . --icon=app.ico --overwrite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^31.1.0"
+    "electron": "^31.1.0",
+    "electron-packager": "^17.1.2"
   }
 }
